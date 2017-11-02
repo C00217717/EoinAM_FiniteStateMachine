@@ -27,6 +27,12 @@
     <ClCompile Include="Walking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Jumping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shovelling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FiniteStateMachine.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Walking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jumping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shovelling.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

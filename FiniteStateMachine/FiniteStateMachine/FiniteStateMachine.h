@@ -3,6 +3,9 @@
 /// </summary>
 
 #include <iostream>
+#include "Idle.h"
+#include "Walking.h"
+#include "Jumping.h"
 
 #ifndef FINITESTATEMACHINE
 #define FINITESTATEMACHINE

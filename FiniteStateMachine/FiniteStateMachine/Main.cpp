@@ -6,3 +6,10 @@
 /// Time Taken:
 /// 26-10-17 11:58 - 
 /// </summary>
+
+#include "FiniteStateMachine.h"
+
+int main()
+{
+	system("pause");
+}

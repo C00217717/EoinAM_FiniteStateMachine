@@ -2,10 +2,10 @@
 /// @Author Eoin Abbey-Maher
 /// </summary>
 
-#include "FiniteStateMachine.h"
-
 #ifndef IDLE
 #define IDLE
+
+#include "FiniteStateMachine.h"
 
 class Idle : public State
 {

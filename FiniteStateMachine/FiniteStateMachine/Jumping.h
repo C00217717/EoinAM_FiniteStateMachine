@@ -4,16 +4,16 @@
 
 #include "FiniteStateMachine.h"
 
-#ifndef WALKING
-#define WALKING
+#ifndef JUMPING
+#define JUMPING
 
-class Walking : public State
+class Jumping : public State
 {
 public:
-	Walking();
-	~Walking();
+	Jumping();
+	~Jumping();
 	void idle(Animation *t_a);
 
 };
+#endif // !JUMPING
 
-#endif // !WALKING

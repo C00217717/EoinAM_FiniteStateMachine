@@ -113,12 +113,16 @@
   <ItemGroup>
     <ClCompile Include="FiniteStateMachine.cpp" />
     <ClCompile Include="Idle.cpp" />
+    <ClCompile Include="Jumping.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Shovelling.cpp" />
     <ClCompile Include="Walking.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FiniteStateMachine.h" />
     <ClInclude Include="Idle.h" />
+    <ClInclude Include="Jumping.h" />
+    <ClInclude Include="Shovelling.h" />
     <ClInclude Include="Walking.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

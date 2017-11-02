@@ -2,19 +2,20 @@
 /// @Author Eoin Abbey-Maher
 /// </summary>
 
-#include "Walking.h"
+#include "Jumping.h"
 
-Walking::Walking()
+Jumping::Jumping()
 {
 }
 
-Walking::~Walking()
+Jumping::~Jumping()
 {
 }
 
-void Walking::idle(Animation * t_a)
+void Jumping::idle(Animation *t_a)
 {
 	cout << "Idle" << endl;
 	t_a->setCurrent(new Idle());
 	delete this;
+
 }
