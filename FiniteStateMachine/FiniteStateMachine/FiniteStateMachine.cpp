@@ -2,9 +2,9 @@
 /// @Author Eoin Abbey-Maher
 /// </summary>
 
-#include <thread>
-#include <chrono>
+
 #include "FiniteStateMachine.h"
+
 
 /// <summary>
 /// Animation Class Functions
@@ -39,7 +39,7 @@ inline void Animation::swordManShip()
 	m_current->shovelling(this);
 }
 
-inline void Animation::hammering()
+ void Animation::hammering()
 {
 	m_current->hammering(this);
 }

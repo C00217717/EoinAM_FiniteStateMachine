@@ -2,10 +2,10 @@
 /// @Author Eoin Abbey-Maher
 /// </summary>
 
-#include "FiniteStateMachine.h"
-
 #ifndef JUMPING
 #define JUMPING
+
+#include "Idle.h"
 
 class Jumping : public State
 {

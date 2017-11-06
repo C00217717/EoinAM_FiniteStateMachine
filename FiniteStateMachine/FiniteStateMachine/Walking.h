@@ -2,7 +2,7 @@
 /// @Author Eoin Abbey-Maher
 /// </summary>
 
-#include "FiniteStateMachine.h"
+#include "Idle.h"
 
 #ifndef WALKING
 #define WALKING

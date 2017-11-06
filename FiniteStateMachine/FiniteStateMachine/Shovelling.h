@@ -5,7 +5,7 @@
 #ifndef SHOVELLING
 #define SHOVELLING
 
-#include "FiniteStateMachine.h"
+#include "Idle.h"
 
 class Shovelling : public State
 {

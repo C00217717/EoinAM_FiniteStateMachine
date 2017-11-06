@@ -11,5 +11,8 @@
 
 int main()
 {
+	Animation fsm;
+	fsm.hammering();
+
 	system("pause");
 }
