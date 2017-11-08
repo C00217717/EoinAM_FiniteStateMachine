@@ -39,7 +39,12 @@
     <ClInclude Include="Walking.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\..\pictures\SFML-LOGO.png" />
+    <Image Include="ASSETS\IMAGES\hammering.jpg" />
+    <Image Include="ASSETS\IMAGES\idle.gif" />
+    <Image Include="ASSETS\IMAGES\jumping.jpg" />
+    <Image Include="ASSETS\IMAGES\shovelling.jpg" />
+    <Image Include="ASSETS\IMAGES\swordsman.png" />
+    <Image Include="ASSETS\IMAGES\walking.png" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="ASSETS\FONTS\ariblk.ttf" />

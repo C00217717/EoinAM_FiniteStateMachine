@@ -1,3 +1,7 @@
+/// <summary>
+/// @Author Eoin Abbey-Maher
+/// </summary>
+
 #ifdef _DEBUG 
 #pragma comment(lib,"sfml-graphics-d.lib") 
 #pragma comment(lib,"sfml-audio-d.lib") 

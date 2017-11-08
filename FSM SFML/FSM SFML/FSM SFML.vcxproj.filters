@@ -76,7 +76,22 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\..\pictures\SFML-LOGO.png">
+    <Image Include="ASSETS\IMAGES\hammering.jpg">
+      <Filter>Resource Files\ASSETS\IMAGES</Filter>
+    </Image>
+    <Image Include="ASSETS\IMAGES\idle.gif">
+      <Filter>Resource Files\ASSETS\IMAGES</Filter>
+    </Image>
+    <Image Include="ASSETS\IMAGES\jumping.jpg">
+      <Filter>Resource Files\ASSETS\IMAGES</Filter>
+    </Image>
+    <Image Include="ASSETS\IMAGES\shovelling.jpg">
+      <Filter>Resource Files\ASSETS\IMAGES</Filter>
+    </Image>
+    <Image Include="ASSETS\IMAGES\swordsman.png">
+      <Filter>Resource Files\ASSETS\IMAGES</Filter>
+    </Image>
+    <Image Include="ASSETS\IMAGES\walking.png">
       <Filter>Resource Files\ASSETS\IMAGES</Filter>
     </Image>
   </ItemGroup>

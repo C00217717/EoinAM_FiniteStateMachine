@@ -1,5 +1,7 @@
 /// <summary>
 /// Idle SubClass Functions
+/// 
+/// @Author Eoin Abbey-Maher
 /// </summary>
 
 #include "Idle.h"
