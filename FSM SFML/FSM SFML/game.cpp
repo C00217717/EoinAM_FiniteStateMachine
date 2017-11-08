@@ -80,7 +80,7 @@ void Game::render()
 {
 	m_window.clear(sf::Color::White);
 	m_window.draw(m_welcomeMessage);
-	m_window.draw(m_logoSprite);
+	m_window.draw(m_animationSprite);
 	m_window.display();
 }
 
@@ -109,11 +109,32 @@ void Game::setupFontAndText()
 /// </summary>
 void Game::setupSprite()
 {
-	if (!m_logoTexture.loadFromFile("ASSETS\\IMAGES\\SFML-LOGO.png"))
+	if (!m_animationTextures[0].loadFromFile("ASSETS\\IMAGES\\idle.gif"))
 	{
 		// simple error message if previous call fails
 		std::cout << "problem loading logo" << std::endl;
 	}
-	m_logoSprite.setTexture(m_logoTexture);
-	m_logoSprite.setPosition(300.0f, 180.0f);
+
+	if (!m_animationTextures[1].loadFromFile("ASSETS\\IMAGES\\walking.png"))
+	{
+		// simple error message if previous call fails
+		std::cout << "problem loading logo" << std::endl;
+	}
+
+	if (!m_animationTextures[2].loadFromFile("ASSETS\\IMAGES\\jumping.jpg"))
+	{
+		// simple error message if previous call fails
+		std::cout << "problem loading logo" << std::endl;
+	}
+	if (!m_animationTextures[3].loadFromFile("ASSETS\\IMAGES\\shovelling.jpg"))
+	{
+		// simple error message if previous call fails
+		std::cout << "problem loading logo" << std::endl;
+	}
+	if (!m_animationTextures[40].loadFromFile("ASSETS\\IMAGES\\swordsman.png"))
+	{
+		// simple error message if previous call fails
+		std::cout << "problem loading logo" << std::endl;
+	}
+	m_animationSprite.setTexture(m_animationTextures[0]);
 }
