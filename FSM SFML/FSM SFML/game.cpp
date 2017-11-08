@@ -57,7 +57,42 @@ void Game::processEvents()
 			{
 				m_exitGame = true;
 			}
+
+			if (sf::Keyboard::Num1 == event.key.code)
+			{
+				FSM.idle();
+				m_animationBlock.setTexture(&m_animationTextures[0]);
+			}
+			if (sf::Keyboard::Num2 == event.key.code)
+			{
+				FSM.walking();
+				m_animationBlock.setTexture(&m_animationTextures[1]);
+			}
+			if (sf::Keyboard::Num3 == event.key.code)
+			{
+				FSM.jumping();
+				m_animationBlock.setTexture(&m_animationTextures[2]);
+			}
+
+			if (sf::Keyboard::Num4 == event.key.code)
+			{
+				FSM.shovelling();
+				m_animationBlock.setTexture(&m_animationTextures[3]);
+			}
+
+			if (sf::Keyboard::Num5 == event.key.code)
+			{
+				FSM.hammering();
+				m_animationBlock.setTexture(&m_animationTextures[4]);
+			}
+
+			if (sf::Keyboard::Num6 == event.key.code)
+			{
+				FSM.swordManShip();
+				m_animationBlock.setTexture(&m_animationTextures[5]);
+			}
 		}
+
 	}
 }
 
@@ -109,28 +144,45 @@ void Game::setupFontAndText()
 /// </summary>
 void Game::setupSprite()
 {
+	/// <summary>
+	/// IDLE
+	/// </summary>
 	if (!m_animationTextures[0].loadFromFile("ASSETS\\IMAGES\\idle.gif"))
 	{
 		// simple error message if previous call fails
 		std::cout << "problem loading logo" << std::endl;
 	}
 
+	/// <summary>
+	/// Walking
+	/// </summary>
 	if (!m_animationTextures[1].loadFromFile("ASSETS\\IMAGES\\walking.png"))
 	{
 		// simple error message if previous call fails
 		std::cout << "problem loading logo" << std::endl;
 	}
 
+	/// <summary>
+	/// Jumping
+	/// </summary>
 	if (!m_animationTextures[2].loadFromFile("ASSETS\\IMAGES\\jumping.jpg"))
 	{
 		// simple error message if previous call fails
 		std::cout << "problem loading logo" << std::endl;
 	}
+
+	/// <summary>
+	/// Shovelling
+	/// </summary>
 	if (!m_animationTextures[3].loadFromFile("ASSETS\\IMAGES\\shovelling.jpg"))
 	{
 		// simple error message if previous call fails
 		std::cout << "problem loading logo" << std::endl;
 	}
+
+	/// <summary>
+	/// Swordsmanship
+	/// </summary>
 	if (!m_animationTextures[40].loadFromFile("ASSETS\\IMAGES\\swordsman.png"))
 	{
 		// simple error message if previous call fails
