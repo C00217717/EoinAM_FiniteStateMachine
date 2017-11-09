@@ -26,6 +26,7 @@
     <ClCompile Include="Jumping.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Shovelling.cpp" />
+    <ClCompile Include="SwordmanShip.cpp" />
     <ClCompile Include="Walking.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +37,7 @@
     <ClInclude Include="Jumping.h" />
     <ClInclude Include="Shovelling.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="SwordmanShip.h" />
     <ClInclude Include="Walking.h" />
   </ItemGroup>
   <ItemGroup>

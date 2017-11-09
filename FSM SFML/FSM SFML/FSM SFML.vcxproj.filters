@@ -48,6 +48,9 @@
     <ClCompile Include="Walking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SwordmanShip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -72,6 +75,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Walking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordmanShip.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
